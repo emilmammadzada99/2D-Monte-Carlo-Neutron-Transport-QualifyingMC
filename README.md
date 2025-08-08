@@ -34,6 +34,7 @@ You can install the required packages using pip:
 
 ```bash
 pip install numpy matplotlib scipy
+```
 ## Getting Started
 Install the required Python libraries:
 ## References
