@@ -17,4 +17,8 @@ A.S.M. Fakhrul Islam, University of South Carolina, 2019
 
 ## Getting Started
 Install the required Python libraries:
+## References
+
+- Islam, A. S. M. Fakhrul. *Modeling Neutron Interaction Inside a 2D Reactor Using Monte Carlo Method*. Master’s thesis, University of South Carolina, 2019.  
+  Available at: https://scholarcommons.sc.edu/cgi/viewcontent.cgi?article=6511&context=etd
 
