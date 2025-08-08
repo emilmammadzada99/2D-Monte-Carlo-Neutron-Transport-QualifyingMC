@@ -14,7 +14,26 @@ A.S.M. Fakhrul Islam, University of South Carolina, 2019
 - Interaction types: scattering, capture, fission
 - Energy-dependent cross sections
 - Visualization of neutron trajectories and flux spectrum
+## Images
+![flux_spectrum.png](flux_spectrum.png)
+![neutron_paths.png](neutron_paths.png)
+![geometry.png](geometry.png)
 
+## Requirements
+
+This project requires the following Python packages:
+
+- numpy
+- matplotlib
+- scipy
+- pylab (Note: usually comes with matplotlib)
+
+### Installation
+
+You can install the required packages using pip:
+
+```bash
+pip install numpy matplotlib scipy
 ## Getting Started
 Install the required Python libraries:
 ## References
