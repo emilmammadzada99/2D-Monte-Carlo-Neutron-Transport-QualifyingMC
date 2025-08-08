@@ -347,14 +347,14 @@ def qualifying_monte_carlo(num_neutrons):
     fuel_area = np.pi * r_fuel**2
     scaling_factor = 10 * num_neutrons
     
-    # Simüle edilen akı
+    # Simulated Flux
     flux_y = fuel_surf_neu_num / (fuel_area * scaling_factor)
     
-    # Watt spektrumu
+    # Watt spectrum
     watt_energy = np.linspace(0.01, 30, 500)
     watt_flux = 0.453 * np.sinh(np.sqrt(2.29 * watt_energy)) * np.exp(-1.036 * watt_energy)
     
-    # Normalizasyon (Alan altında birim yapılıyor)
+    # Normalization (Units are being created under the field)
     flux_y_norm = flux_y / np.trapz(flux_y, group_energy)
     watt_flux_norm = watt_flux / np.trapz(watt_flux, watt_energy)
     
@@ -372,4 +372,5 @@ def qualifying_monte_carlo(num_neutrons):
     plt.show()
 
 if __name__ == '__main__':
+
     qualifying_monte_carlo(10)
